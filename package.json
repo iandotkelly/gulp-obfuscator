@@ -1,0 +1,32 @@
+{
+  "name": "gulp-obfuscator",
+  "version": "0.0.0",
+  "description": "Obfuscate node.js projects with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iandotkelly/gulp-obfuscator.git"
+  },
+  "keywords": [
+    "gulp",
+    "obfuscate",
+    "javascript"
+  ],
+  "author": "Ian Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iandotkelly/gulp-obfuscator/issues"
+  },
+  "homepage": "https://github.com/iandotkelly/gulp-obfuscator",
+  "dependencies": {
+    "obfuscator": "^0.4.1",
+    "gulp-util": "^2.2.14"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.2.0"
+  }
+}
